@@ -1,10 +1,7 @@
-import React from 'react';
-
+import React from "react";
 
 const ProfilePage: React.FC = () => {
-    return(
-        <div>aa</div>
-    )
-}
+  return <div>aa</div>;
+};
 
 export default ProfilePage;
