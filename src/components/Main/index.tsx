@@ -1,16 +1,18 @@
-import React from 'react';
+import React from "react";
 
-import ProfilePage from '../ProfilePage';
-
-import { Container, 
-    Header, 
-    BackIcon, 
-    ProfileInfo, 
-    BottomMenu, 
+import ProfilePage from "../ProfilePage";
+import Feed from "../Feed";
+import {
+    Container,
+    Header,
+    BackIcon,
+    ProfileInfo,
+    BottomMenu,
     HomeIcon,
     SearchIcon,
-    BellIcon, 
-    EmailIcon } from './styles'
+    BellIcon,
+    EmailIcon,
+} from "./styles";
 
 const Main: React.FC = () => {
     return (
@@ -29,13 +31,13 @@ const Main: React.FC = () => {
             <ProfilePage />
 
             <BottomMenu>
-                <HomeIcon className="active"/>
+                <HomeIcon className="active" />
                 <SearchIcon />
                 <BellIcon />
                 <EmailIcon />
             </BottomMenu>
 
-
+            <Feed />
         </Container>
     );
 };
